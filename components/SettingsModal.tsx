@@ -84,7 +84,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose, onSave }
             
             <div className="flex flex-col gap-2">
                 <label htmlFor="base-url-input" className="font-semibold text-gray-300">
-                    API Base URL (可选)
+                    API 服务器地址
                 </label>
                 <input
                     id="base-url-input"
